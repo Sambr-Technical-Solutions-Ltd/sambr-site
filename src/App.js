@@ -1,12 +1,8 @@
 import "./App.css";
+import SplashPage from "./components/pages/SplashPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header>Please be patient...</header>
-      <h2>Jacob is working tirelessly to build Sambr</h2>
-    </div>
-  );
+  return <SplashPage></SplashPage>;
 }
 
 export default App;
